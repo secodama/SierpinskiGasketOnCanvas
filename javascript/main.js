@@ -25,6 +25,7 @@ function drawSierpinskiTriangle(n, x, y, l_side, ctx)
     }
     else if(n == 1){
         // draw triangel
+	ctx.beginPath();
         ctx.moveTo(x, y);
         ctx.lineTo(x+dx, y-dy);
         ctx.lineTo(x+l_side, y);
